@@ -1,4 +1,4 @@
-console.log("client side javascript file is loaded");
+// console.log("client side javascript file is loaded");
 
 //using fetch to get data from endpoint and parse it into jason data.
 // fetch("https://puzzle.mead.io/puzzle").then((response) => {
