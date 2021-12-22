@@ -19,7 +19,7 @@ const forecast = (lattitude, longitude, callback) => {
     } else {
       callback(
         undefined,
-        `The weather is ${body.current.weather_descriptions} today. It is currently ${body.current.temperature} degress out. It feels like ${body.current.feelslike} degrees out!`
+        `The weather is ${body.current.weather_descriptions} today. It is currently ${body.current.temperature} degress out. It feels like ${body.current.feelslike} degrees out and the wind speed is ${body.current.wind_speed}.`
       );
     }
   });
